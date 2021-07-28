@@ -1,3 +1,24 @@
+//bai1.1 
+function sum1_1(): number {
+    let a: number = 5;
+    let b: number = 7;
+    return a + b;
+}
+
+let sum1_2 = () => {
+    let a: number = 5;
+    let b: number = 7;
+    return a + b;
+}
+//bai1.2 default value, optional, parameter, rest parameter
+
+let sum1_3 = (num1?: number, num2: number = 0): number => {
+    return <number>num1 + num2;
+}
+
+
+
+
 const hobbies = ['sports', 'cooking'];
 const activeHobbies = ['hiking'];
 activeHobbies.push(hobbies);
